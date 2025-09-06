@@ -11,6 +11,8 @@ programa
 
 		imc = peso / (alt * alt)
 
+		escreva("Seu IMC é ", imc, "\n")
+
 		se(imc <= 18.5){
 			escreva("Está abaixo do peso")
 		}senao se(imc >= 18.6 e imc <= 24.9){
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 532; 
+ * @POSICAO-CURSOR = 466; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
